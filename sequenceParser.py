@@ -15,7 +15,7 @@ f.close()
 index = 1
 sequences = []
 for i in range(len(rawData)):
-    if index < len(rawData):
+    if index <= len(rawData):
         sequences.append(rawData[index])
         index = index+4
 
